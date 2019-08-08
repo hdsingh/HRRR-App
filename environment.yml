@@ -1,0 +1,12 @@
+name: hrrr
+channels:
+  - conda-forge
+dependencies:
+  - nodejs
+  - jupyter=1.0.0
+  - jupyterlab=1.0.2
+  - metpy
+  - geoviews
+  - pip
+  - pip:
+       - "--editable=git+https://github.com/intake/xrviz@master#egg=hrrr"
